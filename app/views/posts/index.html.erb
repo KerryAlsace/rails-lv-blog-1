@@ -1,0 +1,6 @@
+
+<% @posts.each do |post| %>
+<ol>
+  <li><%= link_to "<%= post.title %>", post_path %></li>
+</ol>
+<% end %>
